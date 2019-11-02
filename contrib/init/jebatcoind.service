@@ -1,0 +1,26 @@
+[Unit]
+Description=JebatCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=jebatcoin
+Group=jebatcoin
+
+Type=forking
+PIDFile=/var/lib/jebatcoind/jebatcoind.pid
+
+ExecStart=/usr/bin/jebatcoind -daemon -pid=/var/lib/jebatcoind/jebatcoind.pid \
+          -conf=/etc/jebatcoin/jebatcoin.conf -datadir=/var/lib/jebatcoind
+
+ExecStop=-/usr/bin/jebatcoin-cli -conf=/etc/jebatcoin/jebatcoin.conf \
+         -datadir=/var/lib/jebatcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

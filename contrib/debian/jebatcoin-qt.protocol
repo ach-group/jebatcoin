@@ -1,0 +1,11 @@
+[Protocol]
+exec=jebatcoin-qt '%u'
+protocol=jebatcoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

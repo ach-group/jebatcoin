@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/jebatcoin_bg.qm</file>
+        <file alias="ca">locale/jebatcoin_ca.qm</file>
+        <file alias="cs">locale/jebatcoin_cs.qm</file>
+        <file alias="da">locale/jebatcoin_da.qm</file>
+        <file alias="de">locale/jebatcoin_de.qm</file>
+        <file alias="en">locale/jebatcoin_en.qm</file>
+        <file alias="en_US">locale/jebatcoin_en_US.qm</file>
+        <file alias="es">locale/jebatcoin_es.qm</file>
+        <file alias="fi">locale/jebatcoin_fi.qm</file>
+        <file alias="fr_FR">locale/jebatcoin_fr_FR.qm</file>
+        <file alias="hr">locale/jebatcoin_hr.qm</file>
+        <file alias="it">locale/jebatcoin_it.qm</file>
+        <file alias="ja">locale/jebatcoin_ja.qm</file>
+        <file alias="ko_KR">locale/jebatcoin_ko_KR.qm</file>
+        <file alias="nl">locale/jebatcoin_nl.qm</file>
+        <file alias="pl">locale/jebatcoin_pl.qm</file>
+        <file alias="pt">locale/jebatcoin_pt.qm</file>
+        <file alias="pt_BR">locale/jebatcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/jebatcoin_ro_RO.qm</file>
+        <file alias="ru">locale/jebatcoin_ru.qm</file>
+        <file alias="sk">locale/jebatcoin_sk.qm</file>
+        <file alias="sv">locale/jebatcoin_sv.qm</file>
+        <file alias="tr">locale/jebatcoin_tr.qm</file>
+        <file alias="uk">locale/jebatcoin_uk.qm</file>
+        <file alias="zh_CN">locale/jebatcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/jebatcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

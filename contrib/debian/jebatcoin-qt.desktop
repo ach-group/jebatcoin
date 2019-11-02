@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=JebatCoin
+Comment=JebatCoin P2P Cryptocurrency
+Comment[fr]=JebatCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=JebatCoin, eşten eşe kriptografik sanal para birimi
+Exec=jebatcoin-qt %u
+Terminal=false
+Type=Application
+Icon=jebatcoin128
+MimeType=x-scheme-handler/jebatcoin;
+Categories=Office;Finance;
