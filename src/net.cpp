@@ -1125,7 +1125,7 @@ void ThreadDNSAddressSeed()
             vector<CNetAddr> vIPs;
             vector<CAddress> vAdd;
             if (LookupHost(seed.host.c_str(), vIPs)) {
-                BOOST_FOREACH (CNetAddr& ip, vIPs) {
+                for (CNetAddr& ip : vIPs) {
                     int nOneDay = 24 * 3600;
                     CAddress addr = CAddress(CService(ip, Params().GetDefaultPort()));
                     addr.nTime = GetTime() - 3 * nOneDay - GetRand(4 * nOneDay); // use a random age between 3 and 7 days old
