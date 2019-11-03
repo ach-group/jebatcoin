@@ -153,8 +153,8 @@ public:
         assert(hashGenesisBlock == uint256("0x000003ec63fe68c5bb68eb7c19d0ef4b1c56e281052bed82367da4f0d436eaaa"));
         assert(genesis.hashMerkleRoot == uint256("0x11252aa811bc4b912aafa4abeb7261ef200fb65747740102618fbb4dfd384347"));
         
-        vSeeds.push_back(CDNSSeedData("ns1.jebatcoin.org", "ns1.jebatcoin.org"));
-        vSeeds.push_back(CDNSSeedData("ns2.jebatcoin.org", "ns2.jebatcoin.org"));
+        vSeeds.push_back(CDNSSeedData("45.32.182.73", "45.32.182.73"));
+        vSeeds.push_back(CDNSSeedData("45.32.241.112", "45.32.241.112"));
         vSeeds.push_back(CDNSSeedData("explorer.jebatcoin.org", "explorer.jebatcoin.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 43); // Wallet Address start letter J
