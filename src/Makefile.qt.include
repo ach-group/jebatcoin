@@ -244,9 +244,9 @@ RES_ICONS = \
   qt/res/icons/unit_jebatcoin.png \
   qt/res/icons/unit_mjebatcoin.png \
   qt/res/icons/unit_ujebatcoin.png \
-  qt/res/icons/unit_tjebatcoin.png \
-  qt/res/icons/unit_tmjebatcoin.png \
-  qt/res/icons/unit_tujebatcoin.png
+  # qt/res/icons/unit_tjebatcoin.png \
+  # qt/res/icons/unit_tmjebatcoin.png \
+  # qt/res/icons/unit_tujebatcoin.png
 
 BITCOIN_QT_CPP = \
   qt/bitcoinaddressvalidator.cpp \

@@ -41,9 +41,6 @@
         <file alias="unit_jebatcoin">res/icons/unit_jebatcoin.png</file>
         <file alias="unit_mjebatcoin">res/icons/unit_mjebatcoin.png</file>
         <file alias="unit_ujebatcoin">res/icons/unit_ujebatcoin.png</file>
-        <file alias="unit_tjebatcoin">res/icons/unit_tjebatcoin.png</file>
-        <file alias="unit_tmjebatcoin">res/icons/unit_tmjebatcoin.png</file>
-        <file alias="unit_tujebatcoin">res/icons/unit_tujebatcoin.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
