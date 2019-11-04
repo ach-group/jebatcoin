@@ -3,9 +3,9 @@ Welcome to the Masternode Stake Share Installation Guide
 
 To complete the installation of the Masternode, you must have this elements :
 
-> 8 000 JCOIN
+> 5 000 JCOIN
 > 1 VPS (Configured on Ubuntu Server 16.04)
-> Last version of JCOIN Wallet : https://github.com/jebatcoin-core/jebatcoin/releases 
+> Last version of JCOIN Wallet : https://github.comach-group/jebatcoin/releases 
 
 
 - Step 1
@@ -19,7 +19,15 @@ Send the 8000 JCOIN coin back to this address of the MN01.
 
 - Step 2
 
-While the transaction is confirmed, go to your VPS with "PuTTY" software.
+While the transaction is confirmed, Register account VPS at [Vultr](https://www.vultr.com/?ref=8239119)
+
+Create Instance VPS $5 
+
+Choose any country Ip
+
+Choose Ubuntun and Select Ubuntu 16.04 LTS
+
+ go to your VPS with "PuTTY" software.
 
 Use the following commands :  " apt update ", then, " apt upgrade -y "
 
@@ -27,7 +35,7 @@ Your VPS is now cleaned up and up to date.
 
 Enter the following line :
 
-wget https://github.com/jebatcoin-core/jebatcoin/releases/download/2.1.1/JCOIN-mn-multi.sh
+wget https://github.com/ach-group/jebatcoin/releases/download/2.0.1.1/JCOIN-mn-multi.sh
 
 Then, complete :
 
@@ -52,12 +60,12 @@ Final Step
 Wait until the first rewards appear. 
 If the masternode does not appear in the « Masternode » tab of the wallet, consider restarting the wallet.
 
-In case of problem, do not hesitate to contact us on Discord with the following link : 
+In case of problem, do not hesitate to contact us on Telegram with the following link : 
 
-https://discord.gg/XWXxJ7u
-
-
+https://t.me/joinchat/F76XdEyNIIjn1QjMX6bayw
 
 
-Thank you for using Stake Share
+
+
+Thank you for using Jebat Coin
 Complete Eco-System For PoS Coin
