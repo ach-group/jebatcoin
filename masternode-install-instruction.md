@@ -1,4 +1,4 @@
-Welcome to the Masternode Stake Share Installation Guide
+Welcome to the Masternode JebatCoin Installation Guide
 
 
 To complete the installation of the Masternode, you must have this elements :
@@ -25,11 +25,19 @@ Create Instance VPS $5
 
 Choose any country Ip
 
-Choose Ubuntun and Select Ubuntu 16.04 LTS
+Choose Ubuntu and Select Ubuntu 16.04 LTS
 
- go to your VPS with "PuTTY" software.
+Name your vps instance
 
-Use the following commands :  " apt update ", then, " apt upgrade -y "
+Push deploy then wait finish installation for get ip and password 
+
+go to your VPS with "Bitvise SSH Clien" software. Download here [Bitvise](https://dl.bitvise.com/BvSshClient-Inst.exe)
+
+setting Authentication Username as "root" and Initial Method as "Password"
+
+Copy VPS Ip Address to Host and Port on "22" then push login button
+
+Use the following commands :  "sudo apt-get update && apt-get upgrade -y "
 
 Your VPS is now cleaned up and up to date.
 
@@ -67,5 +75,5 @@ https://t.me/joinchat/F76XdEyNIIjn1QjMX6bayw
 
 
 
-Thank you for using Jebat Coin
+Thank you for using JebatCoin
 Complete Eco-System For PoS Coin
